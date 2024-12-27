@@ -1,0 +1,25 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "scripts": {
+    "start": "node dist/server.js",
+    "build": "tsc",
+    "dev":"nodemon"
+  },
+  "name": "snowFallBlog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kicet3/snowFall_Blog_Backend.git",
+  "author": "kicet3 <37786322+kicet3@users.noreply.github.com>",
+  "license": "MIT"
+}
